@@ -6,7 +6,7 @@ Welcome to the repository for "Beyond the Known: Integrated Non-Target Screening
 📄 Databases: 9 FCM-related suspect lists  
 📊 Analysis: Cosine-based spectral matching, multivariate statistics, and toxicological relevance assessment  
 
-Workflow Guide  
+__Workflow Guide__  
 Follow this step-by-step process to reproduce the suspect screening and MS/MS matching workflow:  
 
 ✅Step 1 – Build In-Silico Spectral Databases  
@@ -42,12 +42,10 @@ Confirm or extend annotations with an external public library
 | `matching.ipynb`                               | Implements the scoring algorithm for cosine similarity and generates ranked candidate matches between in-silico and experimental spectra. |
 | `2b_2a_matches.ipynb`                          | Performs final MS2 spectral comparison between FCM sample spectra and external MoNA database using cosine-based scoring.                  |
 
-
-Getting Started
-Requirements
+__Requirements__  
 Python ≥ 3.8  
 Jupyter Notebook  
-Packages:  
+__Packages:__  
 pandas  
 numpy  
 scikit-learn  
@@ -56,7 +54,7 @@ rdkit (optional but recommended)
 tqdm  
 scipy  
 
-Citation  
+__Citation__    
 If you use this code or data in your research, please cite our corresponding publication:  
 
 Beyond the Known: Integrated Non-Target Screening and In-Silico Toxicity Prediction of Substances Migrating from Plastic and Paper-Based Food Contact Materials  
